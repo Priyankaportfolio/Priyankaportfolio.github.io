@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Priyanka — Biotechnology &amp; Applied Systems</title>
+<meta name="description" content="Portfolio of Priyanka, Biotechnology undergraduate at Lovely Professional University building hardware, software and community-scale systems." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav">
+  <a class="nav__mark" href="#top">P.</a>
+  <nav class="nav__links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#path">Path</a>
+    <a href="#credentials">Credentials</a>
+    <a href="#contact" class="nav__cta">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="hero__kicker">Biotechnology undergraduate — Punjab, India</p>
+      <h1 class="hero__title">
+        Priyanka builds at the<br>
+        seam of biology<br>
+        and circuitry.
+      </h1>
+      <p class="hero__sub">
+        A Biotechnology student at Lovely Professional University who prototypes
+        sensor-driven hardware, writes Python and C++, and spends her summers
+        in community-scale fieldwork.
+      </p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--solid">See the projects</a>
+        <a href="assets/Priyanka_CV.pdf" class="btn btn--ghost" download>Download CV</a>
+      </div>
+      <dl class="hero__stats">
+        <div><dt>7.73</dt><dd>CGPA, B.Tech Biotechnology</dd></div>
+        <div><dt>900+</dt><dd>residents reached in fieldwork</dd></div>
+        <div><dt>92.8%</dt><dd>Class XII, PCM</dd></div>
+      </dl>
+    </div>
+    <div class="hero__stage">
+      <canvas id="helix"></canvas>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="section-head">
+      <span class="section-tag">01 — About</span>
+      <h2>Two disciplines, one habit of building.</h2>
+    </div>
+    <div class="about__grid">
+      <div class="about__photo">
+        <img src="assets/images/profile.jpg" alt="Priyanka in a laboratory coat, standing in a biotechnology lab." />
+      </div>
+      <div class="about__copy">
+        <p>
+          Priyanka is currently reading for a Bachelor of Biotechnology at
+          Lovely Professional University, Punjab, carrying a CGPA of 7.73.
+          Her coursework sits alongside a second, self-taught track in
+          programming and electronics — C, C++ and Python — that shows up in
+          every project she picks: automated street lighting, a soilless
+          growing system, an offline hackathon build.
+        </p>
+        <p>
+          The two tracks meet in how she works: threshold logic and relay
+          switching borrowed from lab instrumentation, applied to circuits;
+          field-survey discipline from community outreach, applied to how she
+          scopes a build before touching hardware. Time management, teamwork
+          and leadership round out a profile built for hands-on, cross-domain
+          work.
+        </p>
+        <ul class="about__facts">
+          <li><span>Languages</span>C, C++, Python</li>
+          <li><span>Core discipline</span>Biotechnology (B.Tech, in progress)</li>
+          <li><span>Also builds with</span>AVR microcontrollers, Arduino IDE, sensors, relays</li>
+          <li><span>Working style</span>Time management · Problem solving · Teamwork · Leadership · Creative thinking</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="work" class="work">
+    <div class="section-head">
+      <span class="section-tag">02 — Work</span>
+      <h2>Two builds, one habit: sense first, then act.</h2>
+    </div>
+
+    <article class="project">
+      <div class="project__index">01</div>
+      <div class="project__body">
+        <h3>Smart Street Light for Energy Conservation</h3>
+        <p class="project__stack">AVR · Arduino IDE · C++ · Sensors — April 2025</p>
+        <p>
+          An automated street-lighting system built around an AVR
+          microcontroller that watches for real-time vehicle movement.
+          Threshold-based logic and relay switching turn the lights on only
+          when a car actually passes, cutting the over-lighting that comes
+          from lights left on all night. The hardware prototype pairs a motion
+          sensor with a relay module and DC supply.
+        </p>
+        <a class="project__link" href="#" onclick="return false;">View writeup (add your link)</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project__index">02</div>
+      <div class="project__body">
+        <h3>Aquaponic System — Soilless Plant Cultivation</h3>
+        <p class="project__stack">Sensors · Relay logic — February 2025</p>
+        <p>
+          A small aquaponic platform for growing plants without soil, using
+          fish to close the nutrient loop. A soil-moisture sensor and relay
+          module drive a DC water pump automatically, circulating water
+          between the fish tank and the plants and cutting the manual
+          watering effort out of the system entirely.
+        </p>
+        <a class="project__link" href="#" onclick="return false;">View writeup (add your link)</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- PATH: experience + education timeline -->
+  <section id="path" class="path">
+    <div class="section-head">
+      <span class="section-tag">03 — Path</span>
+      <h2>From classroom to field to lab bench.</h2>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline__item">
+        <div class="timeline__when">Jun – Jul 2026</div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__card">
+          <h3>Summer Intern — Community Development</h3>
+          <p class="timeline__meta">Community services &amp; social welfare</p>
+          <p>
+            Completed 40+ hours of hands-on training inside a community
+            development project. Ran end-to-end outreach — field surveys,
+            door-to-door interactions and data collection across 900+
+            records — feeding an impact evaluation used to improve the
+            program's efficiency.
+          </p>
+          <div class="timeline__gallery">
+            <img src="assets/images/community-1.jpg" alt="Priyanka seated with volunteers at a community kitchen initiative in Punjab, India." />
+            <img src="assets/images/community-2.jpg" alt="Priyanka standing beside a community ambulance during fieldwork in Punjab, India." />
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__when">Aug 2025 — Present</div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__card">
+          <h3>Bachelor of Biotechnology</h3>
+          <p class="timeline__meta">Lovely Professional University, Punjab, India</p>
+          <p>CGPA 7.73, in progress.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__when">Mar 2023 — May 2024</div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__card">
+          <h3>Intermediate — PCM</h3>
+          <p class="timeline__meta">LT G.S. Salaria Memorial Govt. Senior Secondary School, Punjab</p>
+          <p>92.8%</p>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__when">Jul 2021 — May 2022</div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__card">
+          <h3>Matriculation</h3>
+          <p class="timeline__meta">St. Andrews Convent School, Punjab</p>
+          <p>79%</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section id="credentials" class="credentials">
+    <div class="section-head">
+      <span class="section-tag">04 — Credentials</span>
+      <h2>Certificates, tilted for effect — accurate on paper.</h2>
+    </div>
+    <div class="cert-grid">
+
+      <figure class="cert-card">
+        <div class="cert-card__inner">
+          <img src="assets/images/cert-infosys.jpg" alt="Infosys Springboard course completion certificate for Introduction to Python, awarded to Priyanka." />
+        </div>
+        <figcaption>
+          <h3>Introduction to Python</h3>
+          <p>Infosys Springboard — May 2025</p>
+        </figcaption>
+      </figure>
+
+      <figure class="cert-card">
+        <div class="cert-card__inner">
+          <img src="assets/images/cert-saylor.jpg" alt="Saylor Academy certificate of achievement, PHIL102 Introduction to Critical Thinking and Logic, awarded to Priyanka." />
+        </div>
+        <figcaption>
+          <h3>Critical Thinking and Logic</h3>
+          <p>Saylor Academy — April 2026 · Grade 90.70</p>
+        </figcaption>
+      </figure>
+
+      <figure class="cert-card">
+        <div class="cert-card__inner">
+          <img src="assets/images/cert-hackathon.jpg" alt="Certificate of technical participation in COD-A-FEST 3.0 hackathon, awarded to Priyanka by Lynqup Private Limited." />
+        </div>
+        <figcaption>
+          <h3>COD-A-FEST 3.0 — Technical Participation</h3>
+          <p>LPU School of AI &amp; Emerging Technologies × Lynqup — Feb 2026</p>
+        </figcaption>
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact__inner">
+      <h2>Get in touch.</h2>
+      <p>Open to internships, research assistantships and collaborative builds.</p>
+      <div class="contact__row">
+        <a href="mailto:priyanka98129898@gmail.com">priyanka98129898@gmail.com</a>
+        <a href="tel:+919056315230">+91 90563 15230</a>
+        <a href="https://www.linkedin.com/in/priyankapinku" target="_blank" rel="noopener">linkedin.com/in/priyankapinku</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Built by Priyanka. Updated 2026.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
